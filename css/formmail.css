@@ -1,0 +1,79 @@
+/* Control formmail style*/
+.formmail{
+    width:100%;
+}
+
+.formmail-row{
+    padding:5px 0px;
+    clear: both;
+}
+
+.formmail-row label{
+
+}
+
+.formmail-row textarea{
+    width:70%;
+}
+
+/*.formmail-row-security-image, .formmail-row-security-code, */
+
+.formmail-row-submit{
+    padding-left: 25%;
+    padding-top:35px;
+    padding-bottom: 5px;
+}
+
+.formmail .section-title{
+    font-size:16px;
+    color:#999999;
+}
+
+.formmail .caption{
+    width:25%;
+    height:100%;
+    float:left;
+    padding:5px 10px 5px 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.formmail input, .formmail textarea, .formmail select {
+    padding: 5px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font: normal 12px/100% Verdana, Tahoma, sans-serif;
+    line-height: 130%;
+    /*background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEEEEEE, endColorstr=#FFFFFFFF);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;*/
+}
+
+.formmail input:hover, .formmail textarea:hover,
+.formmail input:focus, .formmail textarea:focus,
+.formmail select:hover, .formmail select:focus {
+    border-color: #C9C9C9;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+.formSecurityValidation{
+    display: none;
+}
+
+#capcha div{
+    float: left;
+}
+
+.formmail-row-capcha{
+    padding-left: 25%;
+    padding-top:0px;
+    padding-bottom: 5px;
+}
+
+.formmail strong{    
+    text-decoration: none;
+    color:#a8244a;
+}
